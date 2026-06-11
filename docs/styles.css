@@ -118,8 +118,8 @@ a {
   padding: 120px clamp(20px, 5vw, 72px) 72px;
   color: #ffffff;
   background:
-    linear-gradient(95deg, rgba(6, 12, 20, 0.86) 0%, rgba(6, 12, 20, 0.56) 48%, rgba(6, 12, 20, 0.28) 100%),
-    url("assets/demo.png") center / cover no-repeat;
+    linear-gradient(95deg, rgba(6, 12, 20, 0.92) 0%, rgba(6, 12, 20, 0.66) 48%, rgba(6, 12, 20, 0.38) 100%),
+    url("assets/demo.png") center bottom / cover no-repeat;
 }
 
 .hero-overlay {
@@ -161,6 +161,7 @@ h2,
 h3 {
   margin: 0;
   line-height: 1.06;
+  overflow-wrap: normal;
 }
 
 h1 {
@@ -402,6 +403,11 @@ code {
     min-height: 720px;
     padding-left: 18px;
     padding-right: 18px;
+  }
+
+  h1 {
+    max-width: 10ch;
+    font-size: 3rem;
   }
 
   .hero-actions {
