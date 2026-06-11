@@ -68,6 +68,8 @@ Make sure you have Python 3.8 or newer installed.
 pip install -r requirements.txt
 ```
 
+The requirements include Agno, `python-dotenv`, and the OpenAI Python client used by Agno's Nebius OpenAI-compatible model wrapper.
+
 ### 2. Set your Nebius API key
 
 Create a `.env` file in the project root:
